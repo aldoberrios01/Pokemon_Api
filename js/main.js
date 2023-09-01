@@ -24,6 +24,7 @@ function mosttraPokemon(poke) {
     {
         pokeId = `0${pokeId}`
     }
+
      const div = document.createElement("div");
      div.classList.add("pokemon")
     div.innerHTML = `
